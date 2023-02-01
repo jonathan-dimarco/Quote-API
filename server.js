@@ -42,17 +42,7 @@ app.get('/api/quotes/random', (req, res) => {
       res.status(400).send()    
     }
   })
-
-
-
-
-
-
-
-
-
-
-
+  
 app.listen(PORT, () => {
     console.log(`App is listening on port ${PORT}`);
 });
