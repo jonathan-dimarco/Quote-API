@@ -53,7 +53,6 @@ app.get('/api/quotes/random', (req, res) => {
 
 
 
-
 app.listen(PORT, () => {
     console.log(`App is listening on port ${PORT}`);
 });
